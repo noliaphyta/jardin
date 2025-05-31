@@ -1,6 +1,8 @@
 ---
-title: How to customize YouTube
-date: 2025-05-31
+title: Usable YouTube
+published: 2025-05-31
+publish: publish
+description: How to customize YouTube using Firefox addons
 ---
 Requires [[Firefox is the best browser|Firefox]] on a desktop environment.
 ## 🪦 YouTube is getting worse.
