@@ -1,5 +1,7 @@
 ---
 title: Welcome
+publish: publish
+description: index
 ---
 # Title
 ## Subheading
