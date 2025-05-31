@@ -23,7 +23,7 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Caprasimo",
+        header: "Solway",
         body: "Sorts Mill Goudy",
         code: "Courier Prime ",
       },
@@ -75,7 +75,6 @@ const config: QuartzConfig = {
     ],
     filters: [
       Plugin.RemoveDrafts(),
-      Plugin.ExplicitPublish(),
     ],
     emitters: [
       Plugin.AliasRedirects(),
