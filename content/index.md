@@ -1,6 +1,19 @@
 ---
-title: Welcome to Quartz
+title: Welcome
 ---
+# Title
+## Subheading
+### Bold
+#### Bolder
+Body
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+---
+```
+code block
+```
+> [!Callout]
+> I always forget how this works
+
+$$maths \frac{\int}{\sum}$$
+*italics* ==highlight== *bold* ~~strike~~
+
