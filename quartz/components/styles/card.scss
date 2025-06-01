@@ -1,0 +1,123 @@
+.card-header {
+  font-size: 48px;
+  margin: 64px 0 8px 0;
+  font-family: "Tiempos", sans-serif;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.page-subhead {
+  font-size: 14px;
+  margin-bottom: 48px;
+  font-family: var(--codeFont);
+  text-transform: uppercase;
+}
+
+/* ISSUE CARDS */
+.issue-container {
+  display: grid;
+  
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2);
+  gap: 36px;
+}
+
+.card {
+  background-color: white;
+  border: 2px solid #00000015;
+  border-radius: 8px;
+  aspect-ratio: 8.5 / 11;
+  padding: 12px;
+  position: relative;
+  transition: transform 0.3s;
+  overflow: hidden;
+  min-width: 160px;
+  cursor: pointer;
+}
+
+.header-card {
+  width: 100px;
+  margin: 1em 0 0;
+  display: inline-block;
+}
+
+.card-title {
+  font-family: "Tiempos", sans-serif;
+  font-size: 36px;
+  margin: 0 0 8px 0;
+  line-height: normal;
+  color: white;
+}
+
+.card-subhead {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: monospace;
+  margin-top: 0;
+  color: white;
+}
+
+.card img {
+  transition: all 0.3s;
+  transform: rotate(0) scale(1);
+}
+
+.card:hover {
+  transform: scale(1.02);
+  /* Make card bigger on hover */
+}
+
+.card:hover img {
+  transform: rotate(10deg) scale(1.2) translate(10%, -120%);
+  transition: all 0.3s;
+  animation: shake 0.3s;
+  /* Apply shake animation to image on hover */
+}
+
+/* CARD COLORS */
+
+.card-coming {
+  background: #cfccc4;
+}
+
+.card-1 {
+  
+  background-image: url("/static/plant0.webp");
+  background-size: cover;
+  overflow: visible;
+}
+
+.card-illustration-1 {
+  position: absolute;
+  bottom: 0;
+  left: -15px;
+  width: 70%;
+}
+
+.card-2 {
+  background: #649aea;
+  background-image: url("/static/plant1.webp");
+  background-size: cover;
+  overflow: visible;
+}
+
+.card-illustration-2 {
+  position: absolute;
+  bottom: 0;
+  left: -15px;
+  width: 70%;
+}
+
+.card-3 {
+  background: #649aea;
+  background-image: url("/static/plant2.webp");
+  background-size: cover;
+  overflow: visible;
+}
+
+.card-illustration-3 {
+  position: absolute;
+  bottom: 0;
+  left: -15px;
+  width: 80%;
+}

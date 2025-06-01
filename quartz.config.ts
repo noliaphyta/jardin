@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Jardin",
+    pageTitle: "Hello",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -23,8 +23,8 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        title: "Caprasimo",
-        header: "Solway",
+        title: "Sorts Mill Goudy",
+        header: "Sorts Mill Goudy",
         body: "Sorts Mill Goudy",
         code: "Courier Prime ",
       },
