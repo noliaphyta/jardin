@@ -8,7 +8,7 @@ export const CARDS = {
       <div class="card card-1">
         <p class="card-title">Test</p>
         <p class="card-subhead">test</p>
-        <img src="./jardin/static/apis.png" class="card-illustration-1" />
+        <img src="noliaphyta.github.io/jardin/static/apis.png" class="card-illustration-1" />
       </div>
     </a>
     ),
@@ -17,7 +17,7 @@ export const CARDS = {
       <div class="card card-2">
         <p class="card-title">Test1</p>
         <p class="card-subhead">test1</p>
-        <img src="./jardin/static/butterfly.png" class="card-illustration-2" />
+        <img src="noliaphyta.github.io/jardin/static/butterfly.png" class="card-illustration-2" />
       </div>
     </a>
     ),
@@ -26,7 +26,7 @@ export const CARDS = {
       <div class="card card-3">
         <p class="card-title">Hello3</p>
         <p class="card-subhead">Hello3</p>
-        <img src="./jardin/static/hummingbird.png" class="card-illustration-3" />
+        <img src="noliaphyta.github.io/jardin/static/hummingbird.png" class="card-illustration-3" />
       </div>
     </a>
     ),
