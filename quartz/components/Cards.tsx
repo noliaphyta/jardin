@@ -1,5 +1,13 @@
 import { QuartzComponentConstructor } from "./types"
 import cardStyle from "./styles/card.scss"
+import { joinSegments, QUARTZ, FullSlug } from "../util/path"
+
+export const plant0 = joinSegments(QUARTZ, "static", "plant0.png")
+export const plant1 = joinSegments(QUARTZ, "static", "plant1.png")
+export const plant2 = joinSegments(QUARTZ, "static", "plant2.png")
+export const apis = joinSegments(QUARTZ, "static", "apis.png")
+export const hummingbird = joinSegments(QUARTZ, "static", "hummingbird.png")
+export const butterfly = joinSegments(QUARTZ, "static", "butterfly.png")
 
 export const TOTAL_CARDS = 3
 export const CARDS = {
