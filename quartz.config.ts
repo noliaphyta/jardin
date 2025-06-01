@@ -23,7 +23,7 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        title: "Sorts Mill Goudy",
+        title: "Cooper Black",
         header: "Sorts Mill Goudy",
         body: "Sorts Mill Goudy",
         code: "Courier Prime ",

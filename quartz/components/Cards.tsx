@@ -1,13 +1,5 @@
 import { QuartzComponentConstructor } from "./types"
 import cardStyle from "./styles/card.scss"
-import { joinSegments, QUARTZ, FullSlug } from "../util/path"
-
-export const plant0 = joinSegments(QUARTZ, "static", "plant0.png")
-export const plant1 = joinSegments(QUARTZ, "static", "plant1.png")
-export const plant2 = joinSegments(QUARTZ, "static", "plant2.png")
-export const apis = joinSegments(QUARTZ, "static", "apis.png")
-export const hummingbird = joinSegments(QUARTZ, "static", "hummingbird.png")
-export const butterfly = joinSegments(QUARTZ, "static", "butterfly.png")
 
 export const TOTAL_CARDS = 3
 export const CARDS = {
@@ -16,7 +8,7 @@ export const CARDS = {
       <div class="card card-1">
         <p class="card-title">Test</p>
         <p class="card-subhead">test</p>
-        <img src="/static/apis.png" class="card-illustration-1" />
+        <img src="jardin/static/apis.png" class="card-illustration-1" />
       </div>
     </a>
     ),
@@ -25,7 +17,7 @@ export const CARDS = {
       <div class="card card-2">
         <p class="card-title">Test1</p>
         <p class="card-subhead">test1</p>
-        <img src="/static/butterfly.png" class="card-illustration-2" />
+        <img src="jardin/static/butterfly.png" class="card-illustration-2" />
       </div>
     </a>
     ),
@@ -34,7 +26,7 @@ export const CARDS = {
       <div class="card card-3">
         <p class="card-title">Hello3</p>
         <p class="card-subhead">Hello3</p>
-        <img src="/static/hummingbird.png" class="card-illustration-3" />
+        <img src="jardin/static/hummingbird.png" class="card-illustration-3" />
       </div>
     </a>
     ),
